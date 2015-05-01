@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://221.239.199.68/PublicBicycleReservationSystem/';
+$config['base_url']	= 'http://localhost/PublicBicycleReservationSystem/';
 
 /*
 |--------------------------------------------------------------------------

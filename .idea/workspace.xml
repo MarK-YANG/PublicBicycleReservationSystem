@@ -4,7 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/application/controllers/customerMainPage.php" line="58" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084a7a74-9f56-4ea7-b2ea-4a6041a8fe07" name="Default" comment="" />
+    <list default="true" id="084a7a74-9f56-4ea7-b2ea-4a6041a8fe07" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ajax/test.php" afterPath="$PROJECT_DIR$/assets/ajax/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="PublicBicycleReservationSystem.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -32,31 +36,68 @@
         <entry file="file://$PROJECT_DIR$/application/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="5888">
-              <caret line="16" column="76" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="76" />
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminAccountManage.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/ajax/adminAccountManage.php">
+      <file leaf-file-name="customerRegiste.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/customerRegiste.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36218375" vertical-offset="16" max-vertical-offset="1616">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1089" max-vertical-offset="2384">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminia.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/Main/css/adminia.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2512" max-vertical-offset="6752">
+              <caret line="172" column="7" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminHeader.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/adminHeader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2969374" vertical-offset="529" max-vertical-offset="3584">
+              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customerRegiste.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/customerRegiste.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="752" max-vertical-offset="2800">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1429458656000" expanded="true" signature="510:777" placeholder="select * fro..t_customer..." />
-                <marker date="1429458656000" expanded="true" signature="971:1399" placeholder="..." />
-                <marker date="1429458656000" expanded="true" signature="1040:1399" placeholder="..." />
-                <marker date="1429458656000" expanded="true" signature="1068:1370" placeholder="..." />
-                <marker date="1429458656000" expanded="true" signature="1093:1341" placeholder="..." />
-                <marker date="1429458656000" expanded="true" signature="1736:1999" placeholder="..." />
-                <marker date="1429458656000" expanded="true" signature="1878:1969" placeholder="..." />
-                <marker date="1429458656000" expanded="true" signature="2044:2303" placeholder="..." />
-                <marker date="1429458656000" expanded="true" signature="2182:2273" placeholder="..." />
-                <marker date="1429458656000" expanded="true" signature="2395:2658" placeholder="..." />
-                <marker date="1429458656000" expanded="true" signature="2537:2628" placeholder="..." />
-                <marker date="1429458656000" expanded="true" signature="2703:2902" placeholder="..." />
-                <marker date="1429458656000" expanded="true" signature="2781:2872" placeholder="..." />
+                <marker date="1425870506000" expanded="true" signature="1506:1516" placeholder="..." />
+                <marker date="1425870506000" expanded="true" signature="1961:1971" placeholder="..." />
+                <marker date="1425870506000" expanded="true" signature="2346:2356" placeholder="..." />
+                <marker date="1425870506000" expanded="true" signature="3090:3100" placeholder="..." />
+                <marker date="1425870506000" expanded="true" signature="4097:4107" placeholder="..." />
+                <marker date="1425870506000" expanded="true" signature="4504:4514" placeholder="..." />
+                <marker date="1425870506000" expanded="true" signature="5130:5140" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/ajax/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="1296">
+              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+              <folding>
+                <element signature="e#6#85#0#PHP" expanded="true" />
+                <marker date="1429589985000" expanded="true" signature="172:203" placeholder="select * fro..v_bike_book..." />
               </folding>
             </state>
           </provider>
@@ -66,11 +107,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/views/adminInfor.php" />
         <option value="$PROJECT_DIR$/application/models/system_maintain_model.php" />
         <option value="$PROJECT_DIR$/application/models/maintain_log_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/adminHref.php" />
@@ -80,7 +123,6 @@
         <option value="$PROJECT_DIR$/APP/Config.php" />
         <option value="$PROJECT_DIR$/APP/test.php" />
         <option value="$PROJECT_DIR$/APP/Functions/LoginAndReigiste.php" />
-        <option value="$PROJECT_DIR$/application/controllers/customerRegiste.php" />
         <option value="$PROJECT_DIR$/assets/javascript/stationInfo.js" />
         <option value="$PROJECT_DIR$/assets/ajax/adminAccountManage.js" />
         <option value="$PROJECT_DIR$/APP/DB_Util/DB_Connect.php" />
@@ -119,8 +161,10 @@
         <option value="$PROJECT_DIR$/assets/ajax/bikeInfo.php" />
         <option value="$PROJECT_DIR$/application/controllers/adminSystemMaintain.php" />
         <option value="$PROJECT_DIR$/application/views/adminSystemMaintain.php" />
-        <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/assets/ajax/adminAccountManage.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/assets/ajax/test.php" />
+        <option value="$PROJECT_DIR$/application/controllers/customerRegiste.php" />
       </list>
     </option>
   </component>
@@ -156,6 +200,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,13 +229,120 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="APP" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PublicBicycleReservationSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,7 +372,7 @@
       <recent name="$PROJECT_DIR$/application/views" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Test.html">
+  <component name="RunManager" selected="PHP Script.test.php">
     <configuration default="false" name="adminAccountManage.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/assets/ajax/adminAccountManage.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
@@ -286,10 +438,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Test.html" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.test.php (1)" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.Test.php" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.test.php" />
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.test.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Test.html" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.test.php (1)" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.Test.php" />
         <item index="4" class="java.lang.String" itemvalue="PHP Script.adminAccountManage.php" />
       </list>
     </recent_temporary>
@@ -309,7 +461,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -317,7 +469,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20208333" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -354,27 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/customerLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15957446" vertical-offset="210" max-vertical-offset="1140">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/ajax/adminHistoricalBikeBookOrder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37367022" vertical-offset="394" max-vertical-offset="1470">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/adminHistoricalOrder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07978723" vertical-offset="0" max-vertical-offset="1230">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/ajax/adminAccountManage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30927834" vertical-offset="0" max-vertical-offset="930">
@@ -386,13 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60106385" vertical-offset="853" max-vertical-offset="1650">
           <caret line="87" column="76" selection-start-line="87" selection-start-column="76" selection-end-line="87" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/customerRegiste.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1768617" vertical-offset="508" max-vertical-offset="1260">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -690,40 +814,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/adminHeader.php">
+    <entry file="file://$PROJECT_DIR$/assets/ajax/adminAccountManage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.2" vertical-offset="176" max-vertical-offset="3584">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36218375" vertical-offset="16" max-vertical-offset="1616">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="5888">
-          <caret line="16" column="76" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="76" />
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/ajax/adminAccountManage.php">
+    <entry file="file://$PROJECT_DIR$/assets/ajax/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36218375" vertical-offset="16" max-vertical-offset="1616">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="1296">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
           <folding>
-            <marker date="1429458656000" expanded="true" signature="510:777" placeholder="select * fro..t_customer..." />
-            <marker date="1429458656000" expanded="true" signature="971:1399" placeholder="..." />
-            <marker date="1429458656000" expanded="true" signature="1040:1399" placeholder="..." />
-            <marker date="1429458656000" expanded="true" signature="1068:1370" placeholder="..." />
-            <marker date="1429458656000" expanded="true" signature="1093:1341" placeholder="..." />
-            <marker date="1429458656000" expanded="true" signature="1736:1999" placeholder="..." />
-            <marker date="1429458656000" expanded="true" signature="1878:1969" placeholder="..." />
-            <marker date="1429458656000" expanded="true" signature="2044:2303" placeholder="..." />
-            <marker date="1429458656000" expanded="true" signature="2182:2273" placeholder="..." />
-            <marker date="1429458656000" expanded="true" signature="2395:2658" placeholder="..." />
-            <marker date="1429458656000" expanded="true" signature="2537:2628" placeholder="..." />
-            <marker date="1429458656000" expanded="true" signature="2703:2902" placeholder="..." />
-            <marker date="1429458656000" expanded="true" signature="2781:2872" placeholder="..." />
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <marker date="1429589985000" expanded="true" signature="172:203" placeholder="select * fro..v_bike_book..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/customerRegiste.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1089" max-vertical-offset="2384">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/customerRegiste.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="752" max-vertical-offset="2800">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1425870506000" expanded="true" signature="1506:1516" placeholder="..." />
+            <marker date="1425870506000" expanded="true" signature="1961:1971" placeholder="..." />
+            <marker date="1425870506000" expanded="true" signature="2346:2356" placeholder="..." />
+            <marker date="1425870506000" expanded="true" signature="3090:3100" placeholder="..." />
+            <marker date="1425870506000" expanded="true" signature="4097:4107" placeholder="..." />
+            <marker date="1425870506000" expanded="true" signature="4504:4514" placeholder="..." />
+            <marker date="1425870506000" expanded="true" signature="5130:5140" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Main/css/adminia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2512" max-vertical-offset="6752">
+          <caret line="172" column="7" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/adminHeader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2969374" vertical-offset="529" max-vertical-offset="3584">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
