@@ -29,16 +29,18 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
 
         if ($customer != false) {
             // customer found
-            $response["error"] = FALSE;
-            $response["customer"]["customer_id"] = $customer["customer_id"];
-            $response["customer"]["citizen_id"] = $customer["citizen_id"];
-            $response["customer"]["gender"] = $customer["gender"];
-            $response["customer"]["create_time"] = $customer["create_time"];
-            $response["customer"]["break_count"] = $customer["break_count"];
-            $response["customer"]["birthdate"] = $customer["birthdate"];
-            $response["customer"]["name"] = $customer["name"];
-            $response["customer"]["balance"] = $customer["balance"];
-            $response["customer"]["level"] = $customer["level"];
+//            $response["error"] = FALSE;
+//            $response["customer"]["customer_id"] = $customer["customer_id"];
+//            $response["customer"]["citizen_id"] = $customer["citizen_id"];
+//            $response["customer"]["gender"] = $customer["gender"];
+//            $response["customer"]["create_time"] = $customer["create_time"];
+//            $response["customer"]["break_count"] = $customer["break_count"];
+//            $response["customer"]["birthdate"] = $customer["birthdate"];
+//            $response["customer"]["name"] = $customer["name"];
+//            $response["customer"]["balance"] = $customer["balance"];
+//            $response["customer"]["level"] = $customer["level"];
+            $response['error'] = FALSE;
+            $response['customer'] = $customer;
             echo json_encode($response, JSON_UNESCAPED_UNICODE);
         } else {
             // user not found
@@ -88,7 +90,17 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
                 echo json_encode($response);
             }
         }
-    } else {
+    }else if($tag = 'validateEmail') {
+        $reg= "/^([0-9A-Za-z\\-_\\.]+)@([0-9a-z]+\\.[a-z]{2,3}(\\.[a-z]{2})?)$/i";
+        $email = $_POST['email'];
+        if(preg_match($reg, $email)){
+            $response['error'] = FALSE;
+            echo json_encode($response);
+        }else{
+            $response['error'] = TRUE;
+            echo json_encode($response);
+        }
+    }else {
         // user failed to store
         $response["error"] = TRUE;
         $response["error_msg"] = "Unknown 'tag' value. It should be either 'login' or 'register'";

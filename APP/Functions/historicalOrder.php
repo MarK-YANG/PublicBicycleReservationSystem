@@ -102,7 +102,7 @@ class historicalOrder{
                     'customer_id' => $row['customer_id'],
                     'station_id' => $row['rent_station_id'],
                     'start_time' => $row['start_time'],
-                    'left_time' => $row['finish_time'],
+                    'finish_time' => $row['finish_time'],
                     'customer_name' => $user,
                     'rent_station_name' => $rentStation,
                     'return_station_name' => $returnStation,

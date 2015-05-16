@@ -97,4 +97,18 @@ class LoginAndRegister{
         return mysql_fetch_array($result);
     }
 
+    public function changePassword($arr){
+
+        $checkSQL = "SELECT * FROM t_customer WHERE customer_id = '$arr[0]' and password = '$arr[1]'";
+        $result = mysql_query($checkSQL);
+        $num_of_rows = mysql_num_rows($result);
+
+        if($num_of_rows == 0){
+            return false;
+        }else {
+            $sql = "UPDATE t_customer SET password = '$arr[2]' WHERE customer_id = '$arr[0]'";
+            mysql_query($sql);
+            return true;
+        }
+    }
 }

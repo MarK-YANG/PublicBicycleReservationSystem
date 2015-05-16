@@ -294,10 +294,10 @@ class AdminSystemMaintain extends CI_Controller{
     }
 
     function addStation(){
-        $this->form_validation->set_rules('stationId', '服务站编号', 'required|is_unique[t_station.station_id]');
-        $this->form_validation->set_rules('stationPhoneNum', '服务站电话', 'required');
-        $this->form_validation->set_rules('stationName', '服务站名称', 'required');
-        $this->form_validation->set_rules('stationAddress','服务站地址','required');
+        $this->form_validation->set_rules('aStationId', '服务站编号', 'required|is_unique[t_station.station_id]');
+        $this->form_validation->set_rules('aStationPhoneNum', '服务站电话', 'required');
+        $this->form_validation->set_rules('aStationName', '服务站名称', 'required');
+        $this->form_validation->set_rules('aStationAddress','服务站地址','required');
         $this->form_validation->set_message('required','%s不能为空.');
         $this->form_validation->set_message('is_unique','该服务站编号已经存在.');
 
