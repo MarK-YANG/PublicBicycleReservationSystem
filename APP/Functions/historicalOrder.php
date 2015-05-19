@@ -31,7 +31,7 @@ class historicalOrder{
     public function bike($id){
 
         $sql = "SELECT * FROM r_bike_book WHERE customer_id = '$id' AND finish_time <> 'null' AND finish_time <> '2000-01-01 00:00:00'
-                AND finish_time <> '1999-01-01 00:00:00'";
+                AND finish_time <> '1999-01-01 00:00:00'  ORDER BY start_time DESC";
         $result = mysql_query($sql);
 
         if(mysql_num_rows($result) > 0){
@@ -60,7 +60,7 @@ class historicalOrder{
 
     public function parkingspace($id){
         $sql = "SELECT * FROM r_parkingspace_book WHERE customer_id = '$id'AND finish_time <> 'null' AND finish_time <> '2000-01-01 00:00:00'
-                AND finish_time <> '1999-01-01 00:00:00'";
+                AND finish_time <> '1999-01-01 00:00:00'  ORDER BY start_time DESC";
         $result = mysql_query($sql);
         if(mysql_num_rows($result) > 0){
             $arr = array();
@@ -87,7 +87,7 @@ class historicalOrder{
     }
 
     public function rent($id){
-        $sql = "SELECT * FROM r_bike_rent WHERE customer_id = '$id'";
+        $sql = "SELECT * FROM r_bike_rent WHERE customer_id = '$id' ORDER BY start_time DESC ";
         $result = mysql_query($sql);
         if(mysql_num_rows($result) > 0){
             $arr = array();
